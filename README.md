@@ -23,7 +23,10 @@ Part 1: We saw very clear t-SNE visualisation emerge particularly when we change
 
 ![t-SNE](TSNE.png)
 
-Our approach demonstrated a high degree of accuracy in predicting the complexity of children's literature, outperforming existing methods. The use of word embeddings to capture semantic and syntactic information about the words in the texts proved particularly effective, highlighting the potential of this approach for a wide range of applications in text analysis and natural language processing.
+Part 2: We used the part 1 findings to model a new algorithm to predict the complexity of childrens text. The core innovation was the use of word embeddinsgs in addition to sentence lenegth and and word length. This novel approach demonstrated a high degree of accuracy in predicting the complexity of children's literature, outperforming existing methods. The use of word embeddings to capture semantic and syntactic information about the words in the texts proved particularly effective, highlighting the potential of this approach for a wide range of applications in text analysis and natural language processing. However, we saw very clearly that they are most effective on similar corpus so for use in K12 education the datasets shoudl be carefully selected. 
+
+R-squared for the new training set:    0.978437
+R-squared for the new test set:        0.784729
 
 
 ## 6. Hardware requirements
