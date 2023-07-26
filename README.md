@@ -19,7 +19,7 @@ The primary hyperparameters optimized in this project were the number of trees u
 
 ## 5. Summary of Results
 
-Part 1: We saw very clear t-SNE visualautiosn emerge particularly when we changed the vectorization method to documents from a fixed number of tokens. Our snake embedding picture is below and can be recreated in the code
+Part 1: We saw very clear t-SNE visualisation emerge particularly when we changed the vectorization method to documents from a fixed number of tokens. Our snake embedding picture is below and can be recreated in the code
 
 ![t-SNE](TSNE.png)
 
