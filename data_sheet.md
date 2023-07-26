@@ -11,7 +11,18 @@ Intended Use: Predicting the complexity of English sentences in children's liter
 
 ### Data Collection
 
-Data Source: The data used to train and evaluate the model comes from two corpora: the Brown Corpus and a new corpus of children's fairy tales. The Brown Corpus is a collection of documents that are broadly representative of English texts. The fairy tales corpus consists of a collection of children's stories collected and compiled specifically for this project.
+Data Source: 
+
+1) NLTK : 
+
+Download the brown corpus and the list of stopwords
+nltk.download('brown')
+nltk.download('stopwords')
+childrens_text = brown.words(categories='lore')
+
+2) Kaggle: https://www.kaggle.com/datasets/edenbd/children-stories-text-corpus
+
+The data used to train and evaluate the model comes from two corpora: the Brown Corpus and a new corpus of children's fairy tales. The Brown Corpus is a collection of documents that are broadly representative of English texts. The fairy tales corpus consists of a collection of children's stories collected and compiled specifically for this project.
 
 Who was involved in the data collection process? For the Brown Corpus, the data collection was performed by Henry Kučera and W. Nelson Francis at Brown University in the 1960s. The fairy tales corpus was collected and compiled by the project team.
 
